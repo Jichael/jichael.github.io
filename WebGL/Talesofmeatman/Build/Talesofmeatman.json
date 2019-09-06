@@ -1,0 +1,17 @@
+{
+"companyName": "Jichaels",
+"productName": "TalesOfMeatMan",
+"productVersion": "0.1",
+"dataUrl": "TalesOfMeatMan.data.unityweb",
+"wasmCodeUrl": "TalesOfMeatMan.wasm.code.unityweb",
+"wasmFrameworkUrl": "TalesOfMeatMan.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "TalesOfMeatMan.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.4f1"
+}

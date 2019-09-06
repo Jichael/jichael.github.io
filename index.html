@@ -1,1 +1,177 @@
-"Hello world" 
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script src="js/jQuery.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.0/umd/popper.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="WebGL/TalesOfMeatMan/Build/UnityLoader.js"></script>
+		<script>
+			//UnityLoader.instantiate("talesofmeatman", "WebGL/Talesofmeatman/Build/Talesofmeatman.json");
+		</script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/index.css">
+		<title>Jichaels Portfolio</title>
+		
+	</head>
+	
+	<body>
+
+		<p id="topBanner">WIP</p>
+
+		<nav class="nav nav-tabs">
+			<a class="nav-item nav-link active" href="#gameTab1" data-toggle="tab">Tales of MeatMan</a>
+			<a class="nav-item nav-link" href="#gameTab2" data-toggle="tab">Grimwatch</a>
+			<a class="nav-item nav-link" href="#gameTab3" data-toggle="tab">Town of Kaya</a>
+		</nav>
+
+		<div class="tab-content">
+			<div class="gameContent tab-pane active" id="gameTab1">
+
+				<h3 class="gameTitle">Tales of MeatMan</h3>
+
+				<div class="gameDescription container">
+
+					<p class="text-info">Little 2D platformer made during a game course from Jason Weimann. You can jump, double jump, wall jump, bump snails and shells. There is a single really simple level at the moment, but I may create more in the future !</p>
+
+				</div>
+
+				<div class="gameControls container">
+
+					<div class="row">
+						<div class="col-sm font-weight-bold">Input</div>
+						<div class="col-sm font-weight-bold">Description</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Q-D / Arrows</div>
+						<div class="col-sm">Move character</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Space</div>
+						<div class="col-sm">Jump / Double Jump</div>
+					</div>
+
+				</div>
+
+				<div class="webglbuild">
+
+					<button type="button" class="playBtn btn btn-primary">Play</button>
+					<button type="button" class="quitBtn btn btn-primary">Quit</button>
+					<div id="TalesOfMeatMan" class="webglApp container"></div>
+
+				</div>
+
+			</div>
+			<div class="gameContent tab-pane" id="gameTab2">
+
+				<h3 class="gameTitle">Grimwatch</h3>
+
+				<div class="gameDescription container">
+
+					<p class="text-info">Top down Hack&Slash with local coop (1 to 4 players). Once in the HUB (the village), there is a purple circle that teleports you to another scene where you can fight Orc NPCs. Still needs a lot of tweaking / polishing (especially camera).</p>
+
+				</div>
+
+				<div class="gameControls container">
+
+					<div class="row">
+						<div class="col-sm font-weight-bold">Input</div>
+						<div class="col-sm font-weight-bold">Description</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">ZQSD / WASD / Arrows / Gamepad left stick</div>
+						<div class="col-sm">Move character</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Mouse / Gamepad right stick</div>
+						<div class="col-sm">Move camera</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Space / Gamepad south button</div>
+						<div class="col-sm">Jump</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Left mouse button / Game west button</div>
+						<div class="col-sm">Press : Light attack / Hold : Heavy attack</div>
+					</div>
+
+				</div>
+
+				<div class="downloadLink">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Download link</a>
+				</div>
+			</div>
+			<div class="gameContent tab-pane" id="gameTab3">
+
+				<h3 class="gameTitle">Town of Kaya</h3>
+
+				<div class="gameDescription container">
+
+					<p class="text-info">First/Third person shooter. Kill as many zombies as you can ! Not much gameplay at the moment, will need to add a lot more features.</p>
+
+				</div>
+
+				<div class="gameControls container">
+
+					<div class="row">
+						<div class="col-sm font-weight-bold">Input</div>
+						<div class="col-sm font-weight-bold">Description</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">ZQSD / WASD / Arrows / Gamepad left stick</div>
+						<div class="col-sm">Move character</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Mouse / Gamepad right stick</div>
+						<div class="col-sm">Move camera</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">V / Gamepad north button</div>
+						<div class="col-sm">Switch stance (Normal / Aiming)</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Mouse wheel / Keyboard 1-3 / Gamepad LB/RB</div>
+						<div class="col-sm">Switch weapon</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">Left mouse button / Gamepad right trigger</div>
+						<div class="col-sm">Fire weapon</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">R / Gamepad east button</div>
+						<div class="col-sm">Reload weapon</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm">B / Gamepad right stick press</div>
+						<div class="col-sm">Switch camera mode (First person / Third person)</div>
+					</div>
+
+				</div>
+
+				<div class="downloadLink">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Download link</a>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+	
+</html>

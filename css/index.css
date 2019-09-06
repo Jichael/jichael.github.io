@@ -1,0 +1,39 @@
+#topBanner {
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.tab-pane {
+
+}
+
+.gameTitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gameControls .row .col-sm{
+    border: 1px solid cornflowerblue;
+    text-align: center;
+}
+
+.downloadLink {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.webglbuild {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.webglbuild .webglApp, .webglbuild .quitBtn {
+    display: none;
+}
