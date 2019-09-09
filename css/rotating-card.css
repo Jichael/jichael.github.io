@@ -125,7 +125,7 @@ body {
     min-height: 160px;
 }
 .card .back .content .main {
-    height: 215px;
+    height: 245px;
 }
 .card .name {
     font-size: 22px;
@@ -162,7 +162,7 @@ body {
 }
 .card .header {
     padding: 15px 20px;
-    height: 90px;
+    height: 60px;
 }
 .card .motto{
     border-bottom: 1px solid #EEEEEE;
@@ -175,21 +175,21 @@ body {
 
 .card .stats-container{
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 .card .stats{
 	display: block;
 	float: left;
 	width: 33.333333%;
 	text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.card .stats:first-child{
-	border-right: 1px solid #EEEEEE;
+.card .stats:not(:first-child) {
+    border-left: 1px solid #EEEEEE;
 }
-.card .stats:last-child{
-	border-left: 1px solid #EEEEEE;
-}
+
 .card .stats h4{
 	font-weight: 300;
 	margin-bottom: 5px;

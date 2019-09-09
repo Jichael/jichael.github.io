@@ -34,3 +34,20 @@ body{
     height: 60px;
     width: 60px;
 }
+
+#talesofmeatman .stats {
+    width: 50%;
+}
+
+#townofkaya .stats:last-child {
+    width: 100%;
+}
+
+.stats:nth-child(3n + 1){
+    border-left: 0 !important;
+ }
+
+.stats:nth-child(n + 4){
+    margin-top: 10px;
+}
+
