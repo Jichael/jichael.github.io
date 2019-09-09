@@ -41,3 +41,13 @@ let LaunchWebGLApp = function(webGLContainer){
     webGLContainer.css('margin-left', '10%');
     webGLContainer.css('margin-top', '10px');
 };
+
+let rotateCard = function(btn) {
+    var $card = $(btn).closest('.card-container');
+    console.log($card);
+    if($card.hasClass('hover')){
+        $card.removeClass('hover');
+    } else {
+        $card.addClass('hover');
+    }
+}
